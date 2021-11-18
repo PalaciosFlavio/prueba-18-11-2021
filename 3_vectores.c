@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
   int dimension = argc / 2;
   int u[dimension];
   int v[dimension];
-  // les damos valores
+  // les damos valores.
   for (int i = 0; i < dimension; i++) {
     u[i] = atoi(argv[i+1]);
   }
